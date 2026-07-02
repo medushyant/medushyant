@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 96" width="100%" role="img" aria-label="">
+<defs><linearGradient id="wv" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6"/><stop offset=".5" stop-color="#3B82F6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient><linearGradient id="pnl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B1020"/><stop offset="1" stop-color="#080B16"/></linearGradient><linearGradient id="stx" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset=".5" stop-color="#7CC4FF"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient><linearGradient id="pbr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE" stop-opacity=".38"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".07"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".38"/></linearGradient><pattern id="pdots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#9FC4FF" opacity=".05"/></pattern><linearGradient id="phl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".30"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="fclip"><rect x="1.5" y="1.5" width="997" height="93" rx="26"/></clipPath></defs>
+<style>
+    .w{animation:mv 9s linear infinite}
+    .w2{animation:mv 13s linear infinite reverse;opacity:.5}
+    .w3{animation:mv 19s linear infinite;opacity:.3}
+    @keyframes mv{from{transform:translateX(0)}to{transform:translateX(-500px)}}
+    </style>
+<rect x="1.5" y="1.5" width="997" height="93" rx="26" fill="url(#pnl)"/><rect x="1.5" y="1.5" width="997" height="93" rx="26" fill="url(#pdots)"/><rect x="1.5" y="1.5" width="997" height="93" rx="26" fill="none" stroke="url(#pbr)" stroke-width="1.2"/><rect x="200" y="1.2" width="600" height="1.6" rx="1" fill="url(#phl)"/>
+<g clip-path="url(#fclip)">
+<path class="w" d="M0,54 C125,28 250,78 500,54 C750,28 875,78 1000,54 C1250,28 1375,78 1500,54 L1500,96 L0,96 Z" fill="url(#wv)" opacity=".85"/>
+<path class="w2" d="M0,54 C125,28 250,78 500,54 C750,28 875,78 1000,54 C1250,28 1375,78 1500,54 L1500,96 L0,96 Z" fill="url(#wv)"/>
+<path class="w3" d="M0,64 C125,44 250,84 500,64 C750,44 875,84 1000,64 C1250,44 1375,84 1500,64 L1500,96 L0,96 Z" fill="url(#wv)"/>
+</g>
+</svg>
